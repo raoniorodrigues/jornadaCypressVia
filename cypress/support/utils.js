@@ -1,6 +1,6 @@
 class Util {
-    getRandomPhone() {
-        return Math.floor(Math.random() * 99999999999 + 1)
+    getRandom() {
+        return Math.floor(Math.random().toString() * 99999999999 + 1)
     }
 
     getRandonPassword() {

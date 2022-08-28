@@ -14,29 +14,22 @@ describe('Devo realizar login com usuário e senha válidos', { tags: '@demo' },
     before(() => {
         cy.visit('/')
         RegistrationPage.registerProfile()
-        // CommonPage.clickInMenuLogin()
-        // cy.fixture("user").then((data) => { 
-        //     LoginPage.fastLogin(data.email, data.password)
-        // })
     })
 
     context('Devo validar o cadastro de Perfil com Sucesso', () => {
         it('Dado que clico no botão Criar Perfil', () => {
             HomePage.clicarBtnCriarPerfil()
             ProfilePage.FillUpForm()
+            CommonPage.validatePageAlert("Perfil Criado")
         })
         
-        it('Quando realizo adiciono uma nova experiência', () => {
-            ExperiencePage.createExperience()
-        });
+        // it('Quando realizo adiciono uma nova experiência', () => {
+        //     ExperiencePage.createExperience()
+        // });
 
-        it('E adiciono uma Formação Academica', () => {
-            AcademicPage.createAcademics()
-        });
+        // it('E adiciono uma Formação Academica', () => {
+        //     AcademicPage.createAcademics()
+        // });
     })
-
-    after(() => {
-        cy.get(el.DASHBOARD_PAGE.DELETE_PROFILE).click
-    });
 
 })

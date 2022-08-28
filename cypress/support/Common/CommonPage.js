@@ -6,6 +6,9 @@ class CommonPages {
     validatePageTitle(value){
         cy.title().should('include', value)
     }
+    validatePageAlert(){
+        cy.get('[data-test="alert"]')
+    }
 
     validateBePageTitleIsNotEmpty(){
         cy.get(el.PAGE_TITLE).should('not.be.empty')
