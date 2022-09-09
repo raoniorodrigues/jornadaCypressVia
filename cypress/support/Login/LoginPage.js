@@ -11,8 +11,8 @@ class AuthPage {
     }
 
     fastLogin(username, passwd) {
-        this.fillFieldUsername(username)
-        this.fillFieldPassword(passwd)
+        this.fillFieldUsername(user.email)
+        this.fillFieldPassword(user.password)
         this.clickInButtonLogin()
     }
 
@@ -39,11 +39,11 @@ class AuthPage {
     }
 
     authenticateUser() {
-        this.fastLogin(user.username, user.password)
+        this.fastLogin(user.email, user.password)
     }
 
     authenticateWithPasswordInvalid() {
-        this.fastLogin(user.username, util.getRandonPassword())
+        this.fastLogin(user.email, util.getRandonPassword())
     }
 
     authenticateWithDataInvalid() {

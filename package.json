@@ -8,7 +8,7 @@
     "registry": "http://nexus.viavarejo.com.br/repository/npm-private"
   },
   "scripts": {
-    "cy:test": "cypress run --config video=false --env",
+    "cy:test": "cypress run",
     "cy:open": "cypress open",
     "cy:dash": "npx cypress run --record --key {secrets_dash}",
     "allure:report": "allure generate --clean allure-results && allure open"

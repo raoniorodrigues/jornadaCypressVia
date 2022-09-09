@@ -25,9 +25,70 @@
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
 /// <reference types="Cypress" />
+import auth from '../fixtures/api/auth.json'
+import addXP from '../fixtures/api/addExpericence.json'
+import addAcademicXP from '../fixtures/api/addAcademics.json'
+import newUser from '../fixtures/api/registerUserForDelete.json'
 
-// Cypress.Commands.add('navigate', (route) => {
-//     cy.intercept(route).as('loadpage')
-//     cy.visit(route, { timeout: 30000 })
-//     cy.wait('@loadpage')
-// })
+
+Cypress.Commands.add("tokenJWT", () => {
+    cy.request({
+        method: 'POST',
+        url: '/api/auth',
+        body: auth
+    }).then((response) => {
+        return response.body.jwt
+    })
+})
+
+Cypress.Commands.add("criarPostagem", (token, texto) => {
+    cy.request({
+        method: 'POST',
+        url: '/api/posts',
+        headers: {
+            Cookie: token
+        },
+        body: {
+            "text": texto
+        }
+    }).then((response) => {
+        expect(response.status).to.eq(201)
+        cy.log(response.body)
+    })
+})
+
+Cypress.Commands.add("createExpecience", (token) => {
+    cy.request({
+        method: 'PUT',
+        url: '/api/profile/experience',
+        headers: {
+            Cookie: token
+        },
+        body: addXP
+    }).then((response) => {
+        return response.body.experience[0]._id
+    })
+})
+
+Cypress.Commands.add("createAcademics", (token) => {
+    cy.request({
+        method: 'PUT',
+        url: '/api/profile/education',
+        headers: {
+            Cookie: token
+        },
+        body: addAcademicXP
+    }).then((response) => {
+        return response.body.education[0]._id
+    })
+})
+
+Cypress.Commands.add("registerNewUser", () => {
+    cy.request({
+        method: 'POST',
+        url: '/api/users',
+        body: newUser
+    }).then((response) => {
+        return response.body.jwt
+    })
+})
