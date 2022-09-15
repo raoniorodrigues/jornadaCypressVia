@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Sep 15 20:39:17 GMT 2022","Thu Sep 15 20:39:17 GMT 2022","54","Validar a home","Dado que acesso a home","","","","Então devo visualizar a logo e ser direcionado para conexaoqa.herokuapp.com",""
+"passed","Thu Sep 15 20:39:17 GMT 2022","Thu Sep 15 20:39:17 GMT 2022","29","Validar a home","Dado que acesso a home","","","","Clicar no Botão Criar Perfil",""
+"passed","Thu Sep 15 20:39:10 GMT 2022","Thu Sep 15 20:39:10 GMT 2022","40","Validar página perfil","Dado que acesso a tela de login","","","","Então devo visualizar a tela login",""
+"passed","Thu Sep 15 20:39:21 GMT 2022","Thu Sep 15 20:39:21 GMT 2022","315","","","","","","[POST] - Teste de Autenticação",""
