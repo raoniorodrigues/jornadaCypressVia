@@ -2,7 +2,7 @@
 
 import RegistrationPage from '../../support/Registration/RegistrationPage'
 
-describe('Validar página perfil', () => {
+describe('Validar página perfil', { tags: '@demo' },  () => {
     before(() => {
         cy.visit('/')
     })

@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 import auth from '../../fixtures/api/auth.json'
 
-describe('Testes de Criação de Postagens', () => {
+describe('Testes de Criação de Postagens', { tags: '@demo' }, () => {
     let token;
 
     beforeEach(() => {

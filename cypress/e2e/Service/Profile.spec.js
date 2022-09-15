@@ -3,7 +3,7 @@ import profile from '../../fixtures/api/createProfile.json'
 import addXP from '../../fixtures/api/addExpericence.json'
 import academicsXP from '../../fixtures/api/addAcademics.json'
 
-describe('Validar Profiles', () => {
+describe('Validar Profiles',{ tags: '@demo' }, () => {
     let token;
 
     beforeEach(() => {

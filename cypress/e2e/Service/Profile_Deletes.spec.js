@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-describe('Deleta Experiencia Profissional', () => {
+describe('Deleta Experiencia Profissional', { tags: '@demo' }, () => {
     let token;
     let addXP;
 

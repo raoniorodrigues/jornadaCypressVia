@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 import auth from '../../fixtures/api/auth.json'
 
-it('[POST] - Teste de Autenticação', () => {
+it('[POST] - Teste de Autenticação', { tags: '@demo' },  () => {
     cy.request({
         method: 'POST',
         url: '/api/auth',
