@@ -4,9 +4,6 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "publishConfig": {
-    "registry": "http://nexus.viavarejo.com.br/repository/npm-private"
-  },
   "scripts": {
     "cy:test": "cypress run",
     "cy:open": "cypress open",

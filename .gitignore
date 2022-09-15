@@ -27,5 +27,6 @@ build/Release
 node_modules
 cypress/videos
 cypress/screenshots
-allure-results
+allure-results/
 allure-results/*
+.DS_Store
