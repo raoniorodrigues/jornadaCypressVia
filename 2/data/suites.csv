@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Sep 15 03:53:50 GMT 2022","Thu Sep 15 03:53:50 GMT 2022","37","Validar página perfil","Dado que acesso a tela de login","","","","Então devo visualizar a tela login",""
+"passed","Thu Sep 15 03:53:43 GMT 2022","Thu Sep 15 03:53:44 GMT 2022","265","","","","","","[POST] - Teste de Autenticação",""
+"passed","Thu Sep 15 03:53:55 GMT 2022","Thu Sep 15 03:53:55 GMT 2022","197","","Validar Profiles","","","","Criar Formação Academica ",""
+"passed","Thu Sep 15 03:53:55 GMT 2022","Thu Sep 15 03:53:55 GMT 2022","218","","Validar Profiles","","","","Criar Experiência Profissional ",""
