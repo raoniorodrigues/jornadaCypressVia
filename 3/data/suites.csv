@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Sep 15 04:04:20 GMT 2022","Thu Sep 15 04:04:30 GMT 2022","10759","Devo realizar login com usuário e senha válidos","Devo validar o cadastro de Perfil com Sucesso","","","","Dado que clico no botão Criar Perfil",""
