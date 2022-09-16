@@ -22,14 +22,6 @@ describe('Devo realizar login com usuário e senha válidos', { tags: '@demo' },
             ProfilePage.FillUpForm()
             CommonPage.validatePageAlert("Perfil Criado")
         })
-        
-        // it('Quando realizo adiciono uma nova experiência', () => {
-        //     ExperiencePage.createExperience()
-        // });
-
-        // it('E adiciono uma Formação Academica', () => {
-        //     AcademicPage.createAcademics()
-        // });
     })
 
 })
