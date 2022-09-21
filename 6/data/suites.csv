@@ -1,6 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Sep 21 00:04:11 GMT 2022","Wed Sep 21 00:04:11 GMT 2022","33","Validar a home","Dado que acesso a home","","","","Clicar no Botão Criar Perfil",""
-"passed","Wed Sep 21 00:04:15 GMT 2022","Wed Sep 21 00:04:15 GMT 2022","221","","Validar Profiles","","","","Criar Experiência Profissional ",""
-"passed","Wed Sep 21 00:04:05 GMT 2022","Wed Sep 21 00:04:05 GMT 2022","49","Validar página perfil","Dado que acesso a tela de login","","","","Então devo visualizar a tela login",""
-"passed","Wed Sep 21 00:04:11 GMT 2022","Wed Sep 21 00:04:11 GMT 2022","33","Validar a home","Dado que acesso a home","","","","Então devo visualizar a logo e ser direcionado para conexaoqa.herokuapp.com",""
-"passed","Wed Sep 21 00:04:15 GMT 2022","Wed Sep 21 00:04:16 GMT 2022","281","","Validar Profiles","","","","Criar Formação Academica ",""
+"passed","Wed Sep 21 00:04:03 GMT 2022","Wed Sep 21 00:04:15 GMT 2022","12463","Devo realizar login com usuário e senha válidos","Devo validar o cadastro de Perfil com Sucesso","","","","Dado que clico no botão Criar Perfil",""
