@@ -1,3 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Thu Dec 22 01:30:50 GMT 2022","Thu Dec 22 01:30:50 GMT 2022","274","","Validar Profiles","","","","Criar Experiência Profissional ",""
-"broken","Thu Dec 22 01:30:50 GMT 2022","Thu Dec 22 01:30:50 GMT 2022","0","","Validar Profiles","","","","Criar Formação Academica ",""
+"failed","Thu Dec 22 01:30:54 GMT 2022","Thu Dec 22 01:30:54 GMT 2022","329","","","","","","[POST] - Teste de Autenticação",""
